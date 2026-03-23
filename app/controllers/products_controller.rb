@@ -46,3 +46,4 @@ class ProductsController < ApplicationController
       params.expect(product: [ :name ])
     end
 end
+
