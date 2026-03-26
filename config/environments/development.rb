@@ -10,7 +10,7 @@ Rails.application.configure do
 
     config.hosts << host
     config.force_ssl = true
-    config.ssl_options = { redirect: { status: 307, body: "Temporary Redirect"}}
+    config.ssl_options = { redirect: { status: 307, body: "Temporary Redirect" } }
     config.assume_ssl = true
     config.action_controller.forgery_protection_origin_check = false
   end
